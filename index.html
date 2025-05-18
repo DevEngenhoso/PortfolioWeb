@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio pessoal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sol -->
+  <div class="sun" id="sol" title="Voltar para o início"></div>
+
+  <!-- Cactos -->
+  <img src="assets/imagem.webp" class="cacto c1" alt="Cacto">
+  <img src="assets/imagem.webp" class="cacto c2" alt="Cacto">
+  <img src="assets/imagem.webp" class="cacto c3" alt="Cacto">
+  <img src="assets/imagem.webp" class="cacto c4" alt="Cacto">
+  <img src="assets/imagem.webp" class="cacto c5" alt="Cacto">
+  <img src="assets/imagem.webp" class="cacto c6" alt="Cacto">
+  <img src="assets/imagem.webp" class="cacto c7" alt="Cacto">
+  <img src="assets/imagem.webp" class="cacto c8" alt="Cacto">
+
+  <!-- Conteúdo principal -->
+  <div class="container">
+    <div class="buttons">
+      <button class="button" onclick="showContent('sobre')">Sobre Mim</button>
+      <button class="button" onclick="showContent('formacao')">Formação</button>
+      <button class="button" onclick="showContent('portfolio')">Portfólio</button>
+      <button class="button" onclick="showContent('contato')">Contato</button>
+    </div>
+
+    <div class="content" id="conteudo">
+        <div class="wanted-poster">
+          <h1 class="wanted-title">PROCURADO</h1>
+          <img src="./assets/me.jpg" alt="Procurado" class="wanted-image" />
+          <h2 class="wanted-subtitle">DAVI A. MAIA</h2>
+          <h2 class="wanted-subtitle">VIVO OU MORTO</h2>
+          <p class="reward">RECOMPENSA: <strong>$1200</strong></p>
+        </div>
+    </div>      
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

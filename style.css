@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #f5e1a4 0%, #f7d08a 50%, #ffa94d 100%);
+  font-family: 'Special Elite', monospace;
+  color: #5b3a00;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.sun {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle at center, #ff7f50 60%, #b24f16 90%);
+  border-radius: 50%;
+  box-shadow: 0 0 40px 20px rgba(255, 127, 80, 0.4);
+  z-index: 0;
+  cursor: pointer;
+}
+
+.cacto {
+  position: fixed;
+  width: 50px;
+  height: auto;
+  z-index: 0;
+}
+
+.c1 { bottom: 30px; left: 30px; }
+.c2 { bottom: 100px; left: 80px; }
+.c3 { bottom: 170px; left: 50px; }
+.c4 { bottom: 240px; left: 90px; }
+.c5 { bottom: 30px; right: 30px; }
+.c6 { bottom: 100px; right: 80px; }
+.c7 { bottom: 170px; right: 50px; }
+.c8 { bottom: 240px; right: 90px; }
+
+.container {
+  width: 620px;
+  border: 6px double #5b3a00;
+  padding: 30px 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #fbeec1, #f7d08a);
+  box-shadow: 8px 8px 0 #a67c00;
+  position: relative;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(150, 100, 0, 0.1) 2px, transparent 3px),
+    radial-gradient(circle at 80% 50%, rgba(150, 100, 0, 0.1) 2px, transparent 3px),
+    radial-gradient(circle at 30% 80%, rgba(150, 100, 0, 0.1) 2px, transparent 3px);
+  background-repeat: repeat;
+  background-size: 100px 100px;
+  z-index: 1;
+}
+
+.buttons {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+}
+
+.button {
+  padding: 10px 15px;
+  border: 3px solid #5b3a00;
+  background-color: #f7d08a;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #5b3a00;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 0 #a67c00;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  font-family: 'Special Elite', monospace;
+}
+
+.button:hover {
+  background-color: #b22222;
+  color: white;
+  box-shadow: 4px 4px 0 #a67c00;
+  transform: translateY(-3px);
+}
+
+.content {
+  text-align: left;
+  border-top: 3px solid #5b3a00;
+  padding-top: 25px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-bottom: 3px double #5b3a00;
+  padding-bottom: 10px;
+}
+
+a {
+  color: #5b3a00;
+  text-decoration: underline dashed;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #a67c00;
+  text-decoration: solid underline;
+}
+
+.wanted-poster {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Special Elite', monospace;
+    color: #5b3a00;
+  }
+  
+  .wanted-title {
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 5rem;
+    margin-bottom: 15px;
+    letter-spacing: 8px;
+  }
+  
+  .wanted-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 6px solid #5b3a00;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .wanted-subtitle {
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 3rem;
+    margin-top: 20px;
+    letter-spacing: 4px;
+  }
+  
+  .reward {
+    font-size: 2rem;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #a12700;
+  }
+  
